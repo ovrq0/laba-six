@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Labrada;
+}
+
+body {
+  background-color: white;
+  max-width: 1980px;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  
+}
+
+.text {
+  font-size: 20px;
+  color: #1b28b7;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  padding: 20px 10px;
+  display: flex;
+  margin-bottom: 20px;
+  background-color:rgb(45, 239, 246);
+  width: 100%;
+  margin: 0;
+}
+
+label {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(205, 17, 17);
+}
+
+input {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  width: max-content;
+}
+
+.user__input {
+  padding: 10px 40px 10px 0px;
+  border: 0; 
+  margin-left: 5px;
+  margin-bottom: 20px;
+  background-color: black;
+}
+
+.block {
+
+  background-color: rgb(45, 239, 246);
+  width: 200px;
+  height: auto;
+  margin: 32px 0 29px 0;
+
+
+  color: #1b28b7;
+  flex-direction: column;
+
+  border-bottom: 1px solid #D9D9D9;
+
+  
+}
+.pets {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.menu {
+  width: 600px;
+  margin-right: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.elem  {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+
+  
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+}
+
+.NumInput {
+  margin: 0 10px;
+  padding: 5px;
+  border: 0;
+  background-color: #b88471;
+}
+
+
+
+button {
+  padding: 10px 15px;
+  color: #5a4b40;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  background-color:rgb(45, 239, 246);
+  border-radius: 5px;
+}
+button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  transform: scale(1.2);
+}
+.block.active {
+
+  animation: block 0.4s ease-in;
+}
+
+.order {
+  background-color: #5a4b40;
+  padding: 10px 20px;
+  margin-left: 20px;
+  color: #D4D0CF;
+  font-size: 20px;
+  font-weight: 700;
+}
